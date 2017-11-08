@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B96F65491FB3BFBA006293C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96F65481FB3BFBA006293C3 /* main.cpp */; };
+		B96F65521FB3C36C006293C3 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = B96F65511FB3C36C006293C3 /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		B96F65481FB3BFBA006293C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B96F654F1FB3BFE9006293C3 /* MySet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MySet.hpp; sourceTree = "<group>"; };
 		B96F65501FB3C00E006293C3 /* VectorSet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorSet.hpp; sourceTree = "<group>"; };
+		B96F65511FB3C36C006293C3 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B96F65481FB3BFBA006293C3 /* main.cpp */,
 				B96F654F1FB3BFE9006293C3 /* MySet.hpp */,
 				B96F65501FB3C00E006293C3 /* VectorSet.hpp */,
+				B96F65511FB3C36C006293C3 /* ReadMe.md */,
 			);
 			path = VectorSet;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96F65521FB3C36C006293C3 /* ReadMe.md in Sources */,
 				B96F65491FB3BFBA006293C3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
