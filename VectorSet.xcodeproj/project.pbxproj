@@ -11,13 +11,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B96F65431FB3BFBA006293C3 /* CopyFiles */ = {
+		B96F65431FB3BFBA006293C3 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		B96F65451FB3BFBA006293C3 /* VectorSet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VectorSet; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96F65481FB3BFBA006293C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B96F654F1FB3BFE9006293C3 /* MySet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MySet.hpp; sourceTree = "<group>"; };
+		B96F65501FB3C00E006293C3 /* VectorSet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorSet.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B96F65481FB3BFBA006293C3 /* main.cpp */,
+				B96F654F1FB3BFE9006293C3 /* MySet.hpp */,
+				B96F65501FB3C00E006293C3 /* VectorSet.hpp */,
 			);
 			path = VectorSet;
 			sourceTree = "<group>";
@@ -71,7 +76,7 @@
 			buildPhases = (
 				B96F65411FB3BFBA006293C3 /* Sources */,
 				B96F65421FB3BFBA006293C3 /* Frameworks */,
-				B96F65431FB3BFBA006293C3 /* CopyFiles */,
+				B96F65431FB3BFBA006293C3 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -168,7 +173,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -210,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -220,7 +225,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9XL8WLHVV2;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
 			};
 			name = Debug;
 		};
@@ -228,7 +236,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9XL8WLHVV2;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
 			};
 			name = Release;
 		};
