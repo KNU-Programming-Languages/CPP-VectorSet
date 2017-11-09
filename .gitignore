@@ -34,5 +34,6 @@
 # XCode Extras
 VectorSet.xcodeproj/*
 VectorSet.xcodeproj
+*.xcodeproj
 Products/*
 Products
