@@ -26,7 +26,7 @@
 #include <vector>
 
 /// @include VectorSet
-#include "VectorSet.hpp"
+#include "VectorSet.h"
 
 /// @namespace std
 using namespace std;

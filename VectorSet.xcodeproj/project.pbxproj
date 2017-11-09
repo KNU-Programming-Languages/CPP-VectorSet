@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B96F65491FB3BFBA006293C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96F65481FB3BFBA006293C3 /* main.cpp */; };
-		B96F65521FB3C36C006293C3 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = B96F65511FB3C36C006293C3 /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +26,9 @@
 /* Begin PBXFileReference section */
 		B96F65451FB3BFBA006293C3 /* VectorSet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VectorSet; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96F65481FB3BFBA006293C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B96F654F1FB3BFE9006293C3 /* MySet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MySet.hpp; sourceTree = "<group>"; };
-		B96F65501FB3C00E006293C3 /* VectorSet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorSet.hpp; sourceTree = "<group>"; };
-		B96F65511FB3C36C006293C3 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = VectorSet/ReadMe.md; sourceTree = "<group>"; };
 		B985886B1FB3E3D000C83F69 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B985886C1FB3E5C100C83F69 /* MySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySet.h; sourceTree = "<group>"; };
+		B985886D1FB3E5C100C83F69 /* VectorSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorSet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				B985886B1FB3E3D000C83F69 /* .gitignore */,
-				B96F65511FB3C36C006293C3 /* ReadMe.md */,
 				B96F65471FB3BFBA006293C3 /* VectorSet */,
 				B96F65461FB3BFBA006293C3 /* Products */,
 			);
@@ -65,9 +62,9 @@
 		B96F65471FB3BFBA006293C3 /* VectorSet */ = {
 			isa = PBXGroup;
 			children = (
+				B985886C1FB3E5C100C83F69 /* MySet.h */,
+				B985886D1FB3E5C100C83F69 /* VectorSet.h */,
 				B96F65481FB3BFBA006293C3 /* main.cpp */,
-				B96F654F1FB3BFE9006293C3 /* MySet.hpp */,
-				B96F65501FB3C00E006293C3 /* VectorSet.hpp */,
 			);
 			path = VectorSet;
 			sourceTree = "<group>";
@@ -130,7 +127,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96F65521FB3C36C006293C3 /* ReadMe.md in Sources */,
 				B96F65491FB3BFBA006293C3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

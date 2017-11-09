@@ -31,6 +31,6 @@
 *.out
 *.app
 
-# Weird Stuff
+# XCode Extras
 *.xcodeproj
 Products/*
