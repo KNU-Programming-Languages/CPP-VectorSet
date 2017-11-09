@@ -32,5 +32,7 @@
 *.app
 
 # XCode Extras
-*.xcodeproj/*
+VectorSet.xcodeproj/*
+VectorSet.xcodeproj
 Products/*
+Products
