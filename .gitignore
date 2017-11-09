@@ -32,5 +32,5 @@
 *.app
 
 # XCode Extras
-*.xcodeproj
+*.xcodeproj/*
 Products/*
