@@ -31,7 +31,7 @@
 /// @namespace std
 using namespace std;
 
-////
+//// test
 
 string cleanUp(string str) {
     string result = "";
