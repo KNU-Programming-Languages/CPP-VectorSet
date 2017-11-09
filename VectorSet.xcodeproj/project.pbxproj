@@ -29,7 +29,8 @@
 		B96F65481FB3BFBA006293C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B96F654F1FB3BFE9006293C3 /* MySet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MySet.hpp; sourceTree = "<group>"; };
 		B96F65501FB3C00E006293C3 /* VectorSet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorSet.hpp; sourceTree = "<group>"; };
-		B96F65511FB3C36C006293C3 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		B96F65511FB3C36C006293C3 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = VectorSet/ReadMe.md; sourceTree = "<group>"; };
+		B985886B1FB3E3D000C83F69 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,8 @@
 		B96F653C1FB3BFBA006293C3 = {
 			isa = PBXGroup;
 			children = (
+				B985886B1FB3E3D000C83F69 /* .gitignore */,
+				B96F65511FB3C36C006293C3 /* ReadMe.md */,
 				B96F65471FB3BFBA006293C3 /* VectorSet */,
 				B96F65461FB3BFBA006293C3 /* Products */,
 			);
@@ -65,7 +68,6 @@
 				B96F65481FB3BFBA006293C3 /* main.cpp */,
 				B96F654F1FB3BFE9006293C3 /* MySet.hpp */,
 				B96F65501FB3C00E006293C3 /* VectorSet.hpp */,
-				B96F65511FB3C36C006293C3 /* ReadMe.md */,
 			);
 			path = VectorSet;
 			sourceTree = "<group>";
@@ -266,6 +268,7 @@
 				B96F654E1FB3BFBA006293C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
