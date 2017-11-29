@@ -33,6 +33,7 @@ public:
     T* toArray() const;
 };
 
+
 /**
  *  Function returns the size of the current set
  *
@@ -65,7 +66,7 @@ inline void VectorSet<T>::insert(const T& val) {
 template <class T>
 inline void VectorSet<T>::remove(const T& val) {
     if (is_member(val)) {
-        for (unsigned int i = 0; i < std::vector<T>::size(); i++) {
+        for (unsigned int i = 0; i < size(); i++) {
             if (std::vector<T>::at(i) == val) {
                 (*this)[i] = std::vector<T>::back();
                 std::vector<T>::pop_back();
@@ -175,8 +176,9 @@ inline MySet<T> * VectorSet<T>::set_xor(const MySet<T> & rhs)const {
 
 template <class T>
 inline T* VectorSet<T>::toArray() const {
-    T* arr = new T[size()];
-    for (unsigned int i = 0; i < size(); i++)
+    unsigned long arraySize = std::vector<T>::size();
+    T* arr = new T[arraySize];
+    for (unsigned int i = 0; i < std::vector<T>::size(); i++)
         arr[i] = (*this)[i];
     return arr;
 }
