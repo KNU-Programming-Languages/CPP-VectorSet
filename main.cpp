@@ -16,6 +16,8 @@
 
 using namespace std;
 
+void printSet(VectorSet<int> set);
+
 /**
  *  Function designed to remove all non-alpha values from string
  *
@@ -58,14 +60,23 @@ void getAnagrams(string word) {
 /**
  *  Function designed to print out set in its entirety
  *
- *  @param arr is the array from the set, which will then be printed
+ *  @param set will be printed
  */
 
-void printSet(int * arr) {
-    for (unsigned int i = 0; i < sizeof(*arr); i++)
+void printSet(MySet<int> * set) {
+    int * arr = set->toArray();
+    for (unsigned int i = 0; i < set->size(); i++)
         cout << arr[i];
     cout << endl;
 }
+
+/*
+void printSet(int * arr, size_t arraySize) {
+    for (unsigned int i = 0; i < arraySize; i++)
+        cout << arr[i];
+    cout << endl;
+}
+ */
 
 /**
  *  Main function can be used in whatever way needed, which in this case,
@@ -106,18 +117,20 @@ int main() {
     MySet<int> * intSet5 = intSet1->set_difference(*intSet2);
     MySet<int> * intSet6 = intSet1->set_xor(*intSet2);
 
+    
+    printSet(intSet1);
     cout << "Set 1: ";
-    printSet(intSet1->toArray());
+    printSet(intSet1);
     cout << "Set 2: ";
-    printSet(intSet2->toArray());
+    printSet(intSet2);
     cout << "Set 3: ";
-    printSet(intSet3->toArray());
+    printSet(intSet3);
     cout << "Set 4: ";
-    printSet(intSet4->toArray());
+    printSet(intSet4);
     cout << "Set 5: ";
-    printSet(intSet5->toArray());
+    printSet(intSet5);
     cout << "Set 6: ";
-    printSet(intSet6->toArray());
+    printSet(intSet6);
 
     return 0;
 }
